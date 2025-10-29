@@ -1,0 +1,159 @@
+/* Global */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1c1f26, #2b2e3a);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background: #11131a;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #00d4ff;
+}
+
+/* Navbar */
+.navbar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navbar button {
+  background: #00d4ff;
+  border: none;
+  color: #111;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar button:hover {
+  background: #fff;
+  color: #111;
+  transform: scale(1.05);
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* Player name */
+#player-display {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #00d4ff;
+}
+
+/* Quiz */
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+#options button {
+  background: #2c2f3a;
+  border: 1px solid #00d4ff;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+#options button:hover {
+  background: #00d4ff;
+  color: #111;
+  transform: scale(1.05);
+}
+
+/* Feedback */
+.correct {
+  background-color: #2ecc71 !important;
+}
+
+.wrong {
+  background-color: #e74c3c !important;
+}
+
+.correct-reveal {
+  background-color: #27ae60 !important;
+}
+
+/* Score */
+#score {
+  font-size: 2rem;
+  color: #00d4ff;
+}
+
+/* Footer */
+.footer {
+  margin-top: 2px;
+  background: #11131a;
+  padding: 1px 0;
+  border-top: 2px solid #00d4ff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 1px;
+  padding: 1px;
+}
+
+.footer-content a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Clear button */
+.clear-btn {
+  background: #e74c3c;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clear-btn:hover {
+  background: #c0392b;
+}
+#img{
+  width:23px;
+  height: 23px;
+  margin: 0 5px;
+  border-radius: 24%;
+}

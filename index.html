@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Informatique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>💻 Quiz Informatique</h1>
+    <nav class="navbar">
+      <button id="nav-quiz">Quiz</button>
+      <button id="nav-score">Score</button>
+      <button id="nav-leaderboard">Leaderboard</button>
+    </nav>
+  </header>
+
+  <!-- Zone nom du joueur -->
+  <div id="name-container" class="card">
+    <h2>Entrez votre nom pour commencer</h2>
+    <input type="text" id="player-name" placeholder="Votre nom...">
+    <button id="start-btn">Commencer le Quiz</button>
+  </div>
+
+  <h2 id="player-display" class="player-display"></h2>
+
+  <!-- Quiz -->
+  <div id="quiz-container" class="card" style="display:none;">
+    <h2 id="question"></h2>
+    <div id="options" class="options"></div>
+  </div>
+
+  <!-- Score -->
+  <div id="score-container" class="card" style="display:none;">
+    <h2>🎯 Votre score : <span id="score">0</span></h2>
+    <button id="restart-btn">Rejouer</button>
+  </div>
+
+  <!-- Leaderboard -->
+  <div id="leaderboard-card" class="card" style="display:none;">
+    <h2>🏆 Classement</h2>
+    <ul id="leaderboard"></ul>
+    <button id="clear-btn" class="clear-btn">🗑️ Effacer les scores</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>👤 Joueur : <span id="footer-player">Aucun</span></p>
+      <p>📸 Suivez-moi sur <a href="https://www.instagram.com/__assil_19" target="_blank"><img src="img/instagram-icon.png" id="img" alt="" srcset="">@__assil_19</a></p>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="annee"></span> Créé avec ❤️ par <strong>Assil</strong></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
